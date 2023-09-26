@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
             
     
     <wb-module deploy-name="student-0.0.1-SNAPSHOT">
@@ -25,4 +26,12 @@
     </wb-module>
         
 
+=======
+    <wb-module deploy-name="NumbersServlet">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="NumbersServlet"/>
+        <property name="java-output-path" value="/NumbersServlet/build/classes"/>
+    </wb-module>
+>>>>>>> 0bd5df9253031a73523e7ffb24a82562e121dd7b
 </project-modules>
